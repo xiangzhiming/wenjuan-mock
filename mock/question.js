@@ -26,18 +26,21 @@ module.exports = [
                             fe_id: Random.id(),
                             type: "questionTitle",
                             title: "标题",
+                            isHidden: false,  // 是否隐藏，false默认不隐藏
                             props: {text: "个人信息调研", level: 1, isCenter: false}
                         },
                         {
                             fe_id: Random.id(),
                             type: "questionInput",
                             title: "输入框",
+                            isHidden: false,  // 是否隐藏，false默认不隐藏
                             props: {title: "你的姓名", placeholder: "请输入姓名...."}
                         },
                         {
                             fe_id: Random.id(),
                             type: "questionInput",
                             title: "输入框2",
+                            isHidden: false,  // 是否隐藏，false默认不隐藏
                             props: {title: "你的电话", placeholder: "请输入电话...."}
                         }
                     ]
