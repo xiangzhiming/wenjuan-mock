@@ -5,7 +5,7 @@ const Random = Mock.Random
 module.exports = [
     {
         // 获取用户信息
-        url: '/api/user/info1',
+        url: '/api/user/info',
         method: 'get',
         response() {
             return {
